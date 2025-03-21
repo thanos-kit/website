@@ -8,6 +8,5 @@ module.exports = {
     ],
     "header-max-length": [0],
     "references-empty": [2, "never"],
-    "references-pattern": [2, "always", "#[0-9]+"]
   },
 };
