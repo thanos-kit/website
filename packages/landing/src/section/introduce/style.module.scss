@@ -1,6 +1,25 @@
-.container{
+.container {
   width: calc(100% - 2 * $spacing-tiny);
   height: calc(100vh - 80px);
   padding-top: $spacing-massive;
   border-radius: $radius-large;
+  position: relative;
+  overflow: hidden; // overlay가 삐져나가지 않도록
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: $radius-large;
+  background: linear-gradient(
+                    180deg,
+                  rgba(192, 192, 194, 0) ,
+                  rgba(192, 192, 194, 0.5) 95%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
