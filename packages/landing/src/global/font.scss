@@ -1,0 +1,54 @@
+// Pretendard font-face
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+}
+
+// 공통 font mixin
+@mixin font-style($size, $lineHeight, $weight) {
+  font-family: 'Pretendard-Regular', sans-serif;
+  font-size: $size;
+  line-height: $lineHeight;
+  font-weight: $weight;
+}
+
+// Typography Styles
+// Display
+@mixin display {
+  @include font-style(3rem, 3.5rem, 700); // 48px / 56px Bold
+}
+
+// Title
+@mixin title {
+  @include font-style(2rem, 2.5rem, 700); // 32px / 40px Bold
+}
+
+// Headline
+@mixin headline {
+  @include font-style(1.5rem, 2rem, 600); // 24px / 32px SemiBold
+}
+
+// Subhead
+@mixin subhead {
+  @include font-style(1.25rem, 1.75rem, 500); // 20px / 28px Medium
+}
+
+// Bodylarge
+@mixin bodylarge {
+  @include font-style(1.125rem, 1.625rem, 500); // 18px / 26px Medium
+}
+
+// Body
+@mixin body {
+  @include font-style(1rem, 1.5rem, 500); // 16px / 24px Medium
+}
+
+// Subtext
+@mixin subtext {
+  @include font-style(0.875rem, 1.25rem, 500); // 14px / 20px Medium
+}
+
+// Caption
+@mixin caption {
+  @include font-style(0.75rem, 1rem, 500); // 12px / 16px Medium
+}
