@@ -3,8 +3,8 @@ import {createElement, ElementType, forwardRef} from "react";
 export interface FlexProps {
     as?: ElementType;
     direction?: "row" | "column";
-    justify?: "start" | "end" | "center" | "between" | "around";
-    align?: "start" | "end" | "center" | "stretch";
+    justify?: "flex-start" | "flex-end" | "center" | "space-between" | "space-around";
+    align?: "flex-start" | "flex-end" | "center" | "stretch";
     wrap?: "wrap" | "nowrap";
     gap?: number;
     className?: string;
@@ -22,7 +22,7 @@ const Flex = forwardRef<HTMLDivElement, FlexProps>((props, ref) => {
             justifyContent: justify,
             alignItems: align,
             flexWrap: wrap,
-            gap: gap,
+            gap: gap
         },
         children,
         className,
