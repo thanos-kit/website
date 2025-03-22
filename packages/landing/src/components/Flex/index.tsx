@@ -1,17 +1,18 @@
 import {createElement, ElementType, forwardRef} from "react";
 
 export interface FlexProps {
-    as ?: ElementType;
-    direction ?: "row" | "column";
-    justify ?: "start" | "end" | "center" | "between" | "around";
-    align ?: "start" | "end" | "center" | "stretch";
-    wrap ?: "wrap" | "nowrap";
-    gap? : number;
+    as?: ElementType;
+    direction?: "row" | "column";
+    justify?: "start" | "end" | "center" | "between" | "around";
+    align?: "start" | "end" | "center" | "stretch";
+    wrap?: "wrap" | "nowrap";
+    gap?: number;
+    className?: string;
     children?: React.ReactNode;
 }
 
 const Flex = forwardRef<HTMLDivElement, FlexProps>((props, ref) => {
-    const {as: Component = "div", direction, justify, align, wrap, gap, children, ...rest} = props;
+    const {as: Component = "div", direction, justify, align, wrap, gap, className, children, ...rest} = props;
 
     return createElement(Component, {
         ref,
@@ -24,6 +25,7 @@ const Flex = forwardRef<HTMLDivElement, FlexProps>((props, ref) => {
             gap: gap,
         },
         children,
+        className,
         ...rest
     });
 });
