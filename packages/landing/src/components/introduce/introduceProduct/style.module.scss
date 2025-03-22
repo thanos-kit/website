@@ -1,0 +1,7 @@
+.container{
+  padding: $spacing-moderate $spacing-big;
+  border-radius: $radius-full;
+  p{
+    @include body;
+  }
+}
