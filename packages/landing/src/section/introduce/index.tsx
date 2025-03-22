@@ -6,11 +6,12 @@ import IntroduceOtherSection from "../../components/introduce/introduceOther";
 
 export default function IntroduceSection(){
     return (
-        <Vstack className={s.container}>
-            <>
+        <Vstack className={s.container} align={"center"} justify={"space-between"}>
+            <div className={s.overlay}></div> {/* 오버레이 추가 */}
+            <div>
                 <IntroduceTitle/>
                 <IntroduceLinkSection/>
-            </>
+            </div>
             <IntroduceOtherSection/>
         </Vstack>
     )
