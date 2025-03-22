@@ -1,5 +1,6 @@
 .container{
-  width: calc(100% - $spacing-tiny);
+  width: calc(100% - 2 * $spacing-tiny);
+  height: calc(100vh - 80px);
   padding-top: $spacing-massive;
   border-radius: $radius-large;
 }
