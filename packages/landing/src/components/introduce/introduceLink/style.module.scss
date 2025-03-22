@@ -1,0 +1,15 @@
+.githubButton{
+  background: $background-invert-default;
+  color: $text-invert;
+  padding: $spacing-small $spacing-medium;
+  border-radius: $radius-small;
+  @include subtext();
+}
+
+.startButton{
+  background: $background-default;
+  padding: $spacing-small $spacing-medium;
+  border-radius: $radius-small;
+  @include subtext();
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.07);
+}
