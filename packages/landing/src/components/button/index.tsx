@@ -10,6 +10,10 @@ export default function Button(props: ButtonProps) {
     const {text, onClick, className} = props;
 
     return (
-        <button className={[s.container, className].filter(Boolean).join(' ')} onClick={onClick}>{text}</button>
+        <button className={[s.container, className].filter(Boolean).join(' ')} onClick={onClick}>
+            <p>
+                {text}
+            </p>
+        </button>
     )
 }
