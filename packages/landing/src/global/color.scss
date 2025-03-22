@@ -1,0 +1,128 @@
+// Base
+$base-0: #ffffff;
+$base-50: #fafafa;
+$base-100: #000000;
+
+// Neutral
+$neutral-0: #f8f9fa;
+$neutral-50: #e9ecef;
+$neutral-100: #dee2e6;
+$neutral-200: #ced4da;
+$neutral-300: #adb5bd;
+$neutral-400: #868e96;
+$neutral-500: #495057;
+$neutral-600: #343a40;
+$neutral-700: #212529;
+
+// Neutral Alpha
+$neutral-0-a: rgba(248, 249, 250, 0.5);
+$neutral-50-a: rgba(233, 236, 239, 0.5);
+$neutral-100-a: rgba(222, 226, 230, 0.5);
+$neutral-200-a: rgba(206, 212, 218, 0.5);
+$neutral-300-a: rgba(173, 181, 189, 0.5);
+$neutral-400-a: rgba(134, 142, 150, 0.5);
+
+// Red
+$red-0: #ffe3e3;
+$red-50: #ffbdbd;
+$red-100: #ff8787;
+$red-200: #ff6b6b;
+$red-300: #fa5252;
+$red-400: #f03e3e;
+$red-500: #e03131;
+
+// Orange
+$orange-0: #fff4e6;
+$orange-50: #ffe8cc;
+$orange-100: #ffd8a8;
+$orange-200: #ffc078;
+$orange-300: #ffa94d;
+$orange-400: #ff922b;
+$orange-500: #fd7e14;
+
+// Lime
+$lime-0: #f4fce3;
+$lime-50: #e9fac8;
+$lime-100: #d8f5a2;
+$lime-200: #c0eb75;
+$lime-300: #a9e34b;
+$lime-400: #94d82d;
+$lime-500: #82c91e;
+
+// Green
+$green-0: #ebfbee;
+$green-50: #d3f9d8;
+$green-100: #b2f2bb;
+$green-200: #8ce99a;
+$green-300: #69db7c;
+$green-400: #51cf66;
+$green-500: #40c057;
+
+// Teal
+$teal-0: #e6fcf5;
+$teal-50: #c3fae8;
+$teal-100: #96f2d7;
+$teal-200: #63e6be;
+$teal-300: #38d9a9;
+$teal-400: #20c997;
+$teal-500: #12b886;
+
+// Blue
+$blue-0: #e7f5ff;
+$blue-50: #d0ebff;
+$blue-100: #a5d8ff;
+$blue-200: #74c0fc;
+$blue-300: #4dabf7;
+$blue-400: #339af0;
+$blue-500: #228be6;
+
+// Magenta
+$magenta-0: #f8f0fc;
+$magenta-50: #f3d9fa;
+$magenta-100: #eebefa;
+$magenta-200: #e599f7;
+$magenta-300: #da77f2;
+$magenta-400: #cc5de8;
+$magenta-500: #be4bdb;
+
+// Purple
+$purple-0: #f3f0ff;
+$purple-50: #e5dbff;
+$purple-100: #d0bfff;
+$purple-200: #b197fc;
+$purple-300: #9775fa;
+$purple-400: #845ef7;
+$purple-500: #7950f2;
+
+// Violet
+$violet-0: #edf2ff;
+$violet-50: #dbe4ff;
+$violet-100: #bac8ff;
+$violet-200: #91a7ff;
+$violet-300: #748ffc;
+$violet-400: #5c7cfa;
+$violet-500: #4c6ef5;
+
+// Semantic colors
+$background-default: #ffffff;
+$background-secondary: #f8f9fa;
+$background-tertiary: #e9ecef;
+
+$background-invert-default: #212529;
+$background-invert-secondary: #343a40;
+$background-invert-tertiary: #495057;
+
+$content-primary: #212529;
+$content-secondary: #495057;
+$content-tertiary: #868e96;
+$content-invert: #ffffff;
+
+$success: #51cf66;
+$success-background: #d3f9d8;
+
+$error: #fa5252;
+$error-background: #ffe3e3;
+
+$warning: #ffa94d;
+$warning-background: #fff4e6;
+
