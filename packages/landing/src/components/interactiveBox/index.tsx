@@ -13,6 +13,7 @@ export default function InteractiveBox(props: InteractiveBoxProps) {
             <p>{text}</p>
             {functionImage && (
                 <img src={functionImage} alt='기능 이미지'/>
+
             )}
         </Hstack>
     )
