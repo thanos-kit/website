@@ -1,0 +1,28 @@
+name: Close Invalid PRs
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  close_invalid_pr:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v3
+
+    - name: Check PR Branch
+      id: check_branch
+      run: |
+        BASE_BRANCH="${{ github.event.pull_request.base.ref }}"
+        if [[ "$BASE_BRANCH" != "develop" && "$BASE_BRANCH" != hotfix/* ]]; then
+          echo "invalid=true" >> $GITHUB_ENV
+        else
+          echo "invalid=false" >> $GITHUB_ENV
+        fi
+
+    - name: Close PR if invalid
+      if: env.invalid == 'true'
+      run: |
+        gh pr close ${{ github.event.pull_request.number }} --comment "Closing PR: Only 'develop' or 'hotfix/*' branches are allowed."
