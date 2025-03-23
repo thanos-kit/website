@@ -1,3 +1,6 @@
 .container{
   width: 481px;
+  border: 1px solid $line-border;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.07);
+  border-radius: $radius-small-medium;
 }

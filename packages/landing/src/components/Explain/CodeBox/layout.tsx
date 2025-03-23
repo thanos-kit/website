@@ -2,6 +2,7 @@ import {VStack} from "../../VStack";
 import CodeSnipetBox from "./CodeSnipetBox";
 import CodeHeader from "./CodeHeader";
 import s from "./style.module.scss"
+import CodeFooter from "../CodeFooter";
 
 export default function CodeBox(){
 
@@ -32,6 +33,7 @@ export default function CodeBox(){
         <VStack align={"center"} justify={"center"} className={s.container}>
             <CodeHeader code={code}/>
             <CodeSnipetBox code={code} language={"javascript"}/>
+            <CodeFooter/>
         </VStack>
     )
 }
