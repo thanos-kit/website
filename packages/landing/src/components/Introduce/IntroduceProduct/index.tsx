@@ -1,5 +1,5 @@
 import s from "./style.module.scss"
-import {Hstack} from "../../Hstack"
+import {HStack} from "../../HStack"
 
 interface IntroduceProductProps {
     img: string;
@@ -14,7 +14,7 @@ export default function IntroduceProduct(props: IntroduceProductProps){
     const {img, title, backgroundColor, borderColor, isBorder, rotating} = props;
 
     return(
-        <Hstack
+        <HStack
             gap={16}
             className={s.container}
             align={"center"}
@@ -27,6 +27,6 @@ export default function IntroduceProduct(props: IntroduceProductProps){
         >
             <img src={img} alt={'test'}/>
             <p style={{color: borderColor}}>{title}</p>
-        </Hstack>
+        </HStack>
     )
 }

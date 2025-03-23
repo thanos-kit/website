@@ -1,0 +1,16 @@
+.container{
+  width: 100%;
+  padding: $spacing-colossal 0;
+}
+.explain{
+  max-width: 486px;
+  p{
+    @include title();
+    color: $text-default;
+  }
+  span{
+    @include bodylarge();
+    color: $text-subtle;
+    text-align: center;
+  }
+}

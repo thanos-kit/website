@@ -1,4 +1,4 @@
-import {Hstack} from "../../Hstack";
+import {HStack} from "../../HStack";
 import IntroduceProduct from "../IntroduceProduct";
 import selfHostLogo from "../../../assets/self-host-logo.svg";
 import designKitLogo from "../../../assets/design-kit-logo.svg";
@@ -6,12 +6,12 @@ import jsonMockLogo from "../../../assets/json-mock-logo.svg";
 import serverLogo from "../../../assets/server-logo.svg";
 import testImage from "../../../assets/testImage.png";
 import s from "./style.module.scss"
-import {Vstack} from "../../Vstack";
+import {Vstack} from "../../VStack";
 
 export default function IntroduceOtherSection() {
     return (
         <Vstack className={s.container} align={"center"} justify={"center"}>
-            <Hstack gap ={24} align={"center"} justify={"center"}>
+            <HStack gap ={24} align={"center"} justify={"center"}>
                 <IntroduceProduct
                 img={selfHostLogo}
                 title={"Self-Hosted"}
@@ -44,7 +44,7 @@ export default function IntroduceOtherSection() {
                     isBorder={false}
                     rotating={-3}
                 />
-            </Hstack>
+            </HStack>
             <img src={testImage} className={s.img} alt = '로딩중..'/>
         </Vstack>
     )
