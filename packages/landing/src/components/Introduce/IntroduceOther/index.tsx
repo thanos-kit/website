@@ -1,5 +1,5 @@
 import {Hstack} from "../../Hstack";
-import IntroduceProduct from "../introduceProduct";
+import IntroduceProduct from "../IntroduceProduct";
 import selfHostLogo from "../../../assets/self-host-logo.svg";
 import designKitLogo from "../../../assets/design-kit-logo.svg";
 import jsonMockLogo from "../../../assets/json-mock-logo.svg";
@@ -45,7 +45,7 @@ export default function IntroduceOtherSection() {
                     rotating={-3}
                 />
             </Hstack>
-            <img src={testImage} className={s.img}/>
+            <img src={testImage} className={s.img} alt = '로딩중..'/>
         </Vstack>
     )
 }

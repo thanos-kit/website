@@ -1,10 +1,10 @@
 import {Vstack} from "../../Vstack";
 import {Hstack} from "../../Hstack";
-import Button from "../../button";
+import Button from "../../Button";
 import gitHubLogo from "../../../assets/githubLogo.svg"
 import copyImage from "../../../assets/copyImage.svg"
 import s from "./style.module.scss"
-import InteractiveBox from "../../interactiveBox";
+import InteractiveBox from "../../InteractiveBox";
 import useCopy from "../../../hooks/useCopy.tsx";
 
 export default function IntroduceLinkSection(){

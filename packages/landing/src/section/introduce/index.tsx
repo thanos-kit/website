@@ -1,8 +1,8 @@
 import {Vstack} from "../../components/Vstack";
 import s from "./style.module.scss"
-import IntroduceTitle from "../../components/introduce/introduceTitle";
-import IntroduceLinkSection from "../../components/introduce/introduceLink";
-import IntroduceOtherSection from "../../components/introduce/introduceOther";
+import IntroduceTitle from "../../components/Introduce/IntroduceTitle";
+import IntroduceLinkSection from "../../components/Introduce/IntroduceLink";
+import IntroduceOtherSection from "../../components/Introduce/IntroduceOther";
 
 export default function IntroduceSection(){
     return (

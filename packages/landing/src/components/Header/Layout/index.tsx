@@ -1,8 +1,8 @@
-import NavigateText from "../navigateText";
+import NavigateText from "../NavigateText";
 import s from "./style.module.scss"
 import {Hstack} from "../../Hstack";
-import Logo from "../../logo";
-import Button from "../../button";
+import Logo from "../../Logo";
+import Button from "../../Button";
 
 export default function Header(){
 return (
