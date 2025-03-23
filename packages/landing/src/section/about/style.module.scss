@@ -1,0 +1,11 @@
+.container{
+  padding: $spacing-colossal 0;
+  max-width: 845px;
+  p{
+    @include subhead();
+  }
+  span{
+    @include bodylarge();
+    color: $text-subtle;
+  }
+}
