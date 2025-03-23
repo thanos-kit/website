@@ -1,7 +1,24 @@
 .container{
-  width: 60px;
-  height: 76px;
-  .codeBox{
+  .codeBox {
     padding: $spacing-moderate;
+    border-radius: $radius-medium;
+    width: 60px;
+    height: 52px;
+
+    p {
+      @include caption();
+    }
+  }
+  :hover{
+    cursor: pointer;
+  }
+}
+.unselect{
+  p{
+    color: $text-subtle;
+  }
+  .codeBox{
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.07);
+    border: 1px solid $line-border;
   }
 }
