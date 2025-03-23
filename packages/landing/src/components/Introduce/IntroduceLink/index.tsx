@@ -1,5 +1,5 @@
 import {Vstack} from "../../VStack";
-import {Hstack} from "../../HStack";
+import {HStack} from "../../HStack";
 import Button from "../../Button";
 import gitHubLogo from "../../../assets/githubLogo.svg"
 import copyImage from "../../../assets/copyImage.svg"
@@ -18,10 +18,10 @@ export default function IntroduceLinkSection(){
                 functionImage={copyImage}
                 onClick={() => copyToClipboard("curl -sSL https://thanos.olivepasta.com/install.sh | sh")}
             />
-            <Hstack gap={16}>
+            <HStack gap={16}>
                 <Button text={"Github"} img1={gitHubLogo} className={s.githubButton} />
                 <Button text={"Get started"} className={s.startButton}/>
-            </Hstack>
+            </HStack>
         </Vstack>
     )
 }

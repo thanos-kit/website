@@ -1,4 +1,4 @@
-import {Hstack} from "../HStack";
+import {HStack} from "../HStack";
 
 interface InteractiveBoxProps {
     className?: string;
@@ -10,11 +10,11 @@ interface InteractiveBoxProps {
 export default function InteractiveBox(props: InteractiveBoxProps) {
     const {className, text, functionImage, onClick} = props;
     return(
-        <Hstack align={"center"} className = {className}>
+        <HStack align={"center"} className = {className}>
             <p>{text}</p>
             {functionImage && (
                 <img src={functionImage} alt='기능 이미지' onClick={onClick}/>
             )}
-        </Hstack>
+        </HStack>
     )
 }
