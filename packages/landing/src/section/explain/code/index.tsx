@@ -3,6 +3,7 @@ import nodeJsLogo from "../../../assets/nodeJsLogo.svg"
 import {VStack} from "../../../components/VStack";
 import {HStack} from "../../../components/HStack";
 import CodeSelectBox from "../../../components/Explain/CodeSelectBox";
+import CodeBox from "../../../components/Explain/CodeBox/layout.tsx";
 
 export default function CodeSection() {
     return(
@@ -14,7 +15,16 @@ export default function CodeSection() {
             <HStack gap={24} align={"center"} justify={"center"}>
                 <CodeSelectBox name={"Node.js"} img1={nodeJsLogo} mainColor={'#6E9F27'} subColor={'#EEF5E1'} isSelected={true}/>
                 <CodeSelectBox name={"Node.js"} img1={nodeJsLogo} mainColor={'#6E9F27'} subColor={'#EEF5E1'} isSelected={false}/>
+                <CodeSelectBox name={"Node.js"} img1={nodeJsLogo} mainColor={'#6E9F27'} subColor={'#EEF5E1'} isSelected={false}/>
+                <CodeSelectBox name={"Node.js"} img1={nodeJsLogo} mainColor={'#6E9F27'} subColor={'#EEF5E1'} isSelected={false}/>
+                <CodeSelectBox name={"Node.js"} img1={nodeJsLogo} mainColor={'#6E9F27'} subColor={'#EEF5E1'} isSelected={false}/>
+                <CodeSelectBox name={"Node.js"} img1={nodeJsLogo} mainColor={'#6E9F27'} subColor={'#EEF5E1'} isSelected={false}/>
+                <CodeSelectBox name={"Node.js"} img1={nodeJsLogo} mainColor={'#6E9F27'} subColor={'#EEF5E1'} isSelected={false}/>
+                <CodeSelectBox name={"Node.js"} img1={nodeJsLogo} mainColor={'#6E9F27'} subColor={'#EEF5E1'} isSelected={false}/>
+                <CodeSelectBox name={"Node.js"} img1={nodeJsLogo} mainColor={'#6E9F27'} subColor={'#EEF5E1'} isSelected={false}/>
+                <CodeSelectBox name={"Node.js"} img1={nodeJsLogo} mainColor={'#6E9F27'} subColor={'#EEF5E1'} isSelected={false}/>
             </HStack>
+            <CodeBox/>
         </VStack>
     )
 }
