@@ -1,4 +1,4 @@
-import {Hstack} from "../Hstack";
+import {Hstack} from "../HStack";
 
 interface InteractiveBoxProps {
     className?: string;

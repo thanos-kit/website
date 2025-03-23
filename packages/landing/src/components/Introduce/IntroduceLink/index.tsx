@@ -1,5 +1,5 @@
-import {Vstack} from "../../Vstack";
-import {Hstack} from "../../Hstack";
+import {Vstack} from "../../VStack";
+import {Hstack} from "../../HStack";
 import Button from "../../Button";
 import gitHubLogo from "../../../assets/githubLogo.svg"
 import copyImage from "../../../assets/copyImage.svg"

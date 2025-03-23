@@ -1,4 +1,4 @@
-import {Vstack} from "../../Vstack";
+import {Vstack} from "../../VStack";
 import s from "./style.module.scss"
 
 export default function IntroduceTitle() {

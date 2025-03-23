@@ -1,6 +1,6 @@
 import NavigateText from "../NavigateText";
 import s from "./style.module.scss"
-import {Hstack} from "../../Hstack";
+import {Hstack} from "../../HStack";
 import Logo from "../../Logo";
 import Button from "../../Button";
 

@@ -1,5 +1,5 @@
 import s from "./style.module.scss"
-import {Hstack} from "../../Hstack"
+import {Hstack} from "../../HStack"
 
 interface IntroduceProductProps {
     img: string;

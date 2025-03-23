@@ -1,4 +1,4 @@
-import {Vstack} from "../../components/Vstack";
+import {Vstack} from "../../components/VStack";
 import s from "./style.module.scss"
 import IntroduceTitle from "../../components/Introduce/IntroduceTitle";
 import IntroduceLinkSection from "../../components/Introduce/IntroduceLink";

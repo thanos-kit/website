@@ -1,4 +1,4 @@
-import {Hstack} from "../../components/Hstack";
+import {Hstack} from "../../../components/HStack";
 import s from "./style.module.scss"
 
 export default function AboutSection(){

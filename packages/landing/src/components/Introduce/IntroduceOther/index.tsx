@@ -1,4 +1,4 @@
-import {Hstack} from "../../Hstack";
+import {Hstack} from "../../HStack";
 import IntroduceProduct from "../IntroduceProduct";
 import selfHostLogo from "../../../assets/self-host-logo.svg";
 import designKitLogo from "../../../assets/design-kit-logo.svg";
@@ -6,7 +6,7 @@ import jsonMockLogo from "../../../assets/json-mock-logo.svg";
 import serverLogo from "../../../assets/server-logo.svg";
 import testImage from "../../../assets/testImage.png";
 import s from "./style.module.scss"
-import {Vstack} from "../../Vstack";
+import {Vstack} from "../../VStack";
 
 export default function IntroduceOtherSection() {
     return (
